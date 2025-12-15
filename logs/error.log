@@ -1,0 +1,42 @@
+[31m[1mERROR[0m | 2025-11-04 10:16:07 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-11-04 10:16:25 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-11-04 10:16:25 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.services.file_loader:load_file_from_bytes:90 | Error loading file from bytes sw_data_2425.dsv: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/file_loader.py
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.services.ingest:_create_data_frame_from_files:91 | Error processing file sw_data_2425.dsv: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/ingest.py
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.api.v1.endpoints.files:upload_files:103 | Failed to process files: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/api/v1/endpoints/files.py
+Traceback (most recent call last):
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/api/v1/endpoints/files.py", line 75, in upload_files
+    table_data, dataframes = await create_data_frame(files=files)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/ingest.py", line 41, in create_data_frame
+    return await _create_data_frame_from_files(files)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/ingest.py", line 67, in _create_data_frame_from_files
+    df = await load_file_from_bytes(content, filename)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/file_loader.py", line 78, in load_file_from_bytes
+    content_str = content.decode('utf-8')
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+[31m[1mERROR[0m | 2025-11-04 12:06:37 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-11-04 12:32:22 | app.api.v1.endpoints.neo4j:get_neo4j_status:41 | Error checking Neo4j status: 'coroutine' object has no attribute 'is_initialized'
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/api/v1/endpoints/neo4j.py
+[31m[1mERROR[0m | 2025-11-04 12:32:22 | app.main:http_exception_handler:124 | HTTP error: 503 - Neo4j connection error: 'coroutine' object has no attribute 'is_initialized'
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-12-04 09:54:34 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-12-04 20:48:50 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-12-04 21:49:39 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-12-04 21:56:18 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py
+[31m[1mERROR[0m | 2025-12-04 22:00:56 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/main.py

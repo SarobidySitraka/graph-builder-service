@@ -1,0 +1,648 @@
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | root:setup_logging:276 | Environment: production
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | app.main:lifespan:32 | Environment: production
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | app.main:lifespan:33 | Debug mode: False
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 10:15:36 | app.services.neo4j.singleton:_initialize_driver:50 | Initializing Neo4j driver: bolt://localhost:7687
+[32m[1mINFO[0m | 2025-11-04 10:15:41 | app.services.neo4j.singleton:_initialize_driver:65 | Neo4j driver initialized successfully
+[32m[1mINFO[0m | 2025-11-04 10:15:41 | app.main:lifespan:46 | Neo4j driver initialized
+[32m[1mINFO[0m | 2025-11-04 10:15:41 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 10:16:03 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-11-04 10:16:03 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:16:07 | app.main:log_requests:111 | GET /favicon.ico
+[31m[1mERROR[0m | 2025-11-04 10:16:07 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-11-04 10:16:07 | app.main:log_requests:113 | GET /favicon.ico - Status: 404
+[32m[1mINFO[0m | 2025-11-04 10:16:25 | app.main:log_requests:111 | GET /docs
+[31m[1mERROR[0m | 2025-11-04 10:16:25 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-11-04 10:16:25 | app.main:log_requests:113 | GET /docs - Status: 404
+[32m[1mINFO[0m | 2025-11-04 10:16:25 | app.main:log_requests:111 | GET /favicon.ico
+[31m[1mERROR[0m | 2025-11-04 10:16:25 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-11-04 10:16:25 | app.main:log_requests:113 | GET /favicon.ico - Status: 404
+[32m[1mINFO[0m | 2025-11-04 10:19:05 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:19:05 | app.services.neo4j.singleton:close:80 | Closing Neo4j driver...
+[32m[1mINFO[0m | 2025-11-04 10:19:05 | app.services.neo4j.singleton:close:82 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 10:19:05 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-04 10:19:05 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-11-04 10:19:15 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:19:15 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:19:15 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 10:19:24 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 10:19:32 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 10:19:32 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:19:36 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 10:19:36 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:19:53 | app.main:log_requests:111 | GET /health
+[32m[1mINFO[0m | 2025-11-04 10:19:53 | app.main:log_requests:113 | GET /health - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:20:07 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-11-04 10:20:07 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:20:30 | app.main:log_requests:111 | GET /api/v1/health
+[32m[1mINFO[0m | 2025-11-04 10:20:30 | app.main:log_requests:113 | GET /api/v1/health - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:20:43 | app.main:log_requests:111 | GET /api/v1/health/detailed
+[32m[1mINFO[0m | 2025-11-04 10:20:43 | app.main:log_requests:113 | GET /api/v1/health/detailed - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:31:17 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:31:17 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-04 10:31:17 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-11-04 10:31:20 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:31:20 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:31:20 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 10:31:21 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 10:31:26 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 10:31:26 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:31:27 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 10:31:27 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:31:33 | app.main:log_requests:111 | GET /api/v1/health/detailed
+[32m[1mINFO[0m | 2025-11-04 10:31:33 | app.services.neo4j.singleton:_initialize_driver:50 | Initializing Neo4j driver: bolt://localhost:7687
+[32m[1mINFO[0m | 2025-11-04 10:31:34 | app.services.neo4j.singleton:_initialize_driver:65 | Neo4j driver initialized successfully
+[32m[1mINFO[0m | 2025-11-04 10:31:34 | app.main:log_requests:113 | GET /api/v1/health/detailed - Status: 200
+[32m[1mINFO[0m | 2025-11-04 10:32:35 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 10:32:35 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 10:32:35 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-11-04 10:32:35 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 10:32:35 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-11-04 10:32:36 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-11-04 10:32:36 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-11-04 10:32:36 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 10:32:36 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 10:32:36 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-11-04 10:32:59 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 10:33:17 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 10:33:17 | app.api.v1.endpoints.files:upload_files:70 | File validated: sw_data_2425.dsv (395215679 bytes)
+[32m[1mINFO[0m | 2025-11-04 10:33:17 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 10:33:18 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: sw_data_2425.dsv
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.services.file_loader:load_file_from_bytes:90 | Error loading file from bytes sw_data_2425.dsv: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.services.ingest:_create_data_frame_from_files:91 | Error processing file sw_data_2425.dsv: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+[31m[1mERROR[0m | 2025-11-04 10:33:18 | app.api.v1.endpoints.files:upload_files:103 | Failed to process files: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+Traceback (most recent call last):
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/api/v1/endpoints/files.py", line 75, in upload_files
+    table_data, dataframes = await create_data_frame(files=files)
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/ingest.py", line 41, in create_data_frame
+    return await _create_data_frame_from_files(files)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/ingest.py", line 67, in _create_data_frame_from_files
+    df = await load_file_from_bytes(content, filename)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/app/services/file_loader.py", line 78, in load_file_from_bytes
+    content_str = content.decode('utf-8')
+                  ^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xcf in position 18957: invalid continuation byte
+[32m[1mINFO[0m | 2025-11-04 10:39:18 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 10:39:18 | app.services.neo4j.singleton:close:80 | Closing Neo4j driver...
+[32m[1mINFO[0m | 2025-11-04 10:39:18 | app.services.neo4j.singleton:close:82 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 10:39:18 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-04 10:39:18 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-11-04 10:39:21 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 10:39:21 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 10:39:21 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 11:04:09 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 11:04:09 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 11:04:09 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 11:04:22 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 11:04:40 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 11:04:40 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 11:04:41 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 11:04:41 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 11:04:56 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 11:04:57 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 11:04:57 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-11-04 11:04:57 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 11:04:57 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-11-04 11:04:59 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-11-04 11:04:59 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-11-04 11:04:59 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 11:04:59 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 11:04:59 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-11-04 11:05:20 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 11:05:37 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 11:05:37 | app.api.v1.endpoints.files:upload_files:70 | File validated: sw_data_2425.dsv (395215679 bytes)
+[32m[1mINFO[0m | 2025-11-04 11:05:37 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 11:05:38 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: sw_data_2425.dsv
+[32m[1mINFO[0m | 2025-11-04 12:05:52 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:05:52 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:05:52 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 12:05:56 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 12:06:36 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-11-04 12:06:36 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:06:37 | app.main:log_requests:111 | GET /favicon.ico
+[31m[1mERROR[0m | 2025-11-04 12:06:37 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-11-04 12:06:37 | app.main:log_requests:113 | GET /favicon.ico - Status: 404
+[32m[1mINFO[0m | 2025-11-04 12:06:49 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 12:06:49 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:06:50 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 12:06:50 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:07:11 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 12:07:12 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 12:07:12 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-11-04 12:07:12 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 12:07:12 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-11-04 12:07:14 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-11-04 12:07:14 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-11-04 12:07:14 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 12:07:15 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 12:07:15 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-11-04 12:07:45 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 12:12:59 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:12:59 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:12:59 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 12:13:38 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 12:13:52 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 12:13:52 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:13:53 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 12:13:53 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:14:10 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 12:14:10 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 12:14:10 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-11-04 12:14:10 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 12:14:10 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-11-04 12:14:12 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-11-04 12:14:12 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-11-04 12:14:12 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 12:14:12 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 12:14:12 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-11-04 12:15:10 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-04 12:15:28 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-04 12:15:28 | app.api.v1.endpoints.files:upload_files:70 | File validated: sw_data_2425.dsv (395215679 bytes)
+[32m[1mINFO[0m | 2025-11-04 12:15:28 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-04 12:15:29 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: sw_data_2425.dsv
+[32m[1mINFO[0m | 2025-11-04 12:21:20 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:21:20 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:21:20 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 12:21:52 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 12:21:57 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 12:21:57 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:21:57 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 12:21:57 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:22:15 | app.main:log_requests:111 | GET /api/v1/health/detailed
+[32m[1mINFO[0m | 2025-11-04 12:22:16 | app.services.neo4j.singleton:_initialize_driver:50 | Initializing Neo4j driver: bolt://localhost:7687
+[32m[1mINFO[0m | 2025-11-04 12:22:17 | app.services.neo4j.singleton:_initialize_driver:65 | Neo4j driver initialized successfully
+[32m[1mINFO[0m | 2025-11-04 12:22:17 | app.main:log_requests:113 | GET /api/v1/health/detailed - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:22:52 | app.main:log_requests:111 | GET /api/v1/sessions/list
+[32m[1mINFO[0m | 2025-11-04 12:22:52 | app.main:log_requests:113 | GET /api/v1/sessions/list - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:23:34 | app.main:log_requests:111 | GET /api/v1/files/formats
+[32m[1mINFO[0m | 2025-11-04 12:23:34 | app.main:log_requests:113 | GET /api/v1/files/formats - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:24:14 | app.main:log_requests:111 | GET /api/v1/files/validate
+[32m[1mINFO[0m | 2025-11-04 12:24:14 | app.main:log_requests:113 | GET /api/v1/files/validate - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:26:31 | app.main:log_requests:111 | POST /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-04 12:26:46 | app.services.neo4j.database:__init__:113 | Neo4j service initialized: bolt://localhost:7687, batch_size=1000
+[32m[1mINFO[0m | 2025-11-04 12:26:46 | app.services.neo4j.database:create_graph_data:175 | Creating graph: 20000 configs in 20 batches
+[32m[1mINFO[0m | 2025-11-04 12:27:09 | app.services.neo4j.database:create_graph_data:183 | Batch 1/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:27:22 | app.services.neo4j.database:create_graph_data:183 | Batch 2/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:27:34 | app.services.neo4j.database:create_graph_data:183 | Batch 3/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:27:46 | app.services.neo4j.database:create_graph_data:183 | Batch 4/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:27:58 | app.services.neo4j.database:create_graph_data:183 | Batch 5/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:28:09 | app.services.neo4j.database:create_graph_data:183 | Batch 6/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:28:20 | app.services.neo4j.database:create_graph_data:183 | Batch 7/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:28:31 | app.services.neo4j.database:create_graph_data:183 | Batch 8/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:28:42 | app.services.neo4j.database:create_graph_data:183 | Batch 9/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:28:53 | app.services.neo4j.database:create_graph_data:183 | Batch 10/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:04 | app.services.neo4j.database:create_graph_data:183 | Batch 11/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:14 | app.services.neo4j.database:create_graph_data:183 | Batch 12/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:25 | app.services.neo4j.database:create_graph_data:183 | Batch 13/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:36 | app.services.neo4j.database:create_graph_data:183 | Batch 14/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:47 | app.services.neo4j.database:create_graph_data:183 | Batch 15/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:29:58 | app.services.neo4j.database:create_graph_data:183 | Batch 16/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:30:08 | app.services.neo4j.database:create_graph_data:183 | Batch 17/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:30:19 | app.services.neo4j.database:create_graph_data:183 | Batch 18/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:30:30 | app.services.neo4j.database:create_graph_data:183 | Batch 19/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:30:41 | app.services.neo4j.database:create_graph_data:183 | Batch 20/20 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-04 12:30:41 | app.services.neo4j.database:create_graph_data:193 | Graph creation completed in 234.78s
+[32m[1mINFO[0m | 2025-11-04 12:30:41 | app.services.neo4j.database:close:124 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 12:30:42 | app.main:log_requests:113 | POST /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:31:38 | app.main:log_requests:111 | POST /api/v1/graph_builder/check_neo4j_db
+[32m[1mINFO[0m | 2025-11-04 12:31:38 | app.services.neo4j.database:__init__:113 | Neo4j service initialized: bolt://localhost:7687, batch_size=1000
+[32m[1mINFO[0m | 2025-11-04 12:31:40 | app.services.neo4j.database:close:124 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 12:31:40 | app.main:log_requests:113 | POST /api/v1/graph_builder/check_neo4j_db - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:32:22 | app.main:log_requests:111 | GET /api/v1/neo4j/status
+[31m[1mERROR[0m | 2025-11-04 12:32:22 | app.api.v1.endpoints.neo4j:get_neo4j_status:41 | Error checking Neo4j status: 'coroutine' object has no attribute 'is_initialized'
+[31m[1mERROR[0m | 2025-11-04 12:32:22 | app.main:http_exception_handler:124 | HTTP error: 503 - Neo4j connection error: 'coroutine' object has no attribute 'is_initialized'
+[32m[1mINFO[0m | 2025-11-04 12:32:22 | app.main:log_requests:113 | GET /api/v1/neo4j/status - Status: 503
+[32m[1mINFO[0m | 2025-11-04 12:42:01 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:42:01 | app.services.neo4j.singleton:close:80 | Closing Neo4j driver...
+[32m[1mINFO[0m | 2025-11-04 12:42:01 | app.services.neo4j.singleton:close:82 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 12:42:01 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-04 12:42:01 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-11-04 12:42:05 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:42:05 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:42:05 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-04 12:42:06 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-04 12:42:11 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-04 12:42:11 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:42:11 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-04 12:42:11 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:42:19 | app.main:log_requests:111 | GET /api/v1/neo4j/status
+[32m[1mINFO[0m | 2025-11-04 12:42:19 | app.services.neo4j.singleton:_initialize_driver:50 | Initializing Neo4j driver: bolt://localhost:7687
+[32m[1mINFO[0m | 2025-11-04 12:42:19 | app.services.neo4j.singleton:_initialize_driver:65 | Neo4j driver initialized successfully
+[32m[1mINFO[0m | 2025-11-04 12:42:19 | app.main:log_requests:113 | GET /api/v1/neo4j/status - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:42:39 | app.main:log_requests:111 | GET /api/v1/neo4j/stats
+[32m[1mINFO[0m | 2025-11-04 12:42:40 | app.main:log_requests:113 | GET /api/v1/neo4j/stats - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:43:24 | app.main:log_requests:111 | POST /api/v1/neo4j/query
+[32m[1mINFO[0m | 2025-11-04 12:43:24 | app.main:log_requests:113 | POST /api/v1/neo4j/query - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:43:56 | app.main:log_requests:111 | GET /api/v1
+[32m[1mINFO[0m | 2025-11-04 12:43:56 | app.main:log_requests:113 | GET /api/v1 - Status: 200
+[32m[1mINFO[0m | 2025-11-04 12:45:38 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-04 12:45:38 | app.services.neo4j.singleton:close:80 | Closing Neo4j driver...
+[32m[1mINFO[0m | 2025-11-04 12:45:38 | app.services.neo4j.singleton:close:82 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-04 12:45:38 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-04 12:45:38 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-11-23 13:20:11 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-23 13:20:11 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-23 13:20:11 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-11-23 13:20:26 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-11-23 13:20:38 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-11-23 13:20:38 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:20:38 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-11-23 13:20:39 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:20:47 | app.main:log_requests:111 | GET /health
+[32m[1mINFO[0m | 2025-11-23 13:20:47 | app.main:log_requests:113 | GET /health - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:21:01 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-11-23 13:21:01 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:21:18 | app.main:log_requests:111 | GET /api/v1/health
+[32m[1mINFO[0m | 2025-11-23 13:21:18 | app.main:log_requests:113 | GET /api/v1/health - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:21:34 | app.main:log_requests:111 | GET /api/v1/health/detailed
+[32m[1mINFO[0m | 2025-11-23 13:21:35 | app.services.neo4j.singleton:_initialize_driver:50 | Initializing Neo4j driver: bolt://localhost:7687
+[32m[1mINFO[0m | 2025-11-23 13:21:35 | app.services.neo4j.singleton:_initialize_driver:65 | Neo4j driver initialized successfully
+[32m[1mINFO[0m | 2025-11-23 13:21:35 | app.main:log_requests:113 | GET /api/v1/health/detailed - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:22:44 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-11-23 13:22:44 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-11-23 13:22:44 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-11-23 13:22:44 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-11-23 13:22:44 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-11-23 13:22:46 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-11-23 13:22:46 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-11-23 13:22:46 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-23 13:22:46 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-23 13:22:46 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-11-23 13:23:42 | app.main:log_requests:111 | GET /api/v1/files/formats
+[32m[1mINFO[0m | 2025-11-23 13:23:42 | app.main:log_requests:113 | GET /api/v1/files/formats - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:24:14 | app.main:log_requests:111 | GET /api/v1/files/validate
+[32m[1mINFO[0m | 2025-11-23 13:24:14 | app.main:log_requests:113 | GET /api/v1/files/validate - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:24:41 | app.main:log_requests:111 | GET /api/v1/sessions/list
+[32m[1mINFO[0m | 2025-11-23 13:24:41 | app.main:log_requests:113 | GET /api/v1/sessions/list - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:25:03 | app.main:log_requests:111 | GET /api/v1/sessions/d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-23 13:25:03 | app.main:log_requests:113 | GET /api/v1/sessions/d41d8cd98f00b204e9800998ecf8427e - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:27:49 | app.main:log_requests:111 | POST /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-11-23 13:27:54 | app.services.neo4j.database:__init__:113 | Neo4j service initialized: bolt://localhost:7687, batch_size=1000
+[32m[1mINFO[0m | 2025-11-23 13:27:54 | app.services.neo4j.database:create_graph_data:175 | Creating graph: 1000 configs in 1 batches
+[32m[1mINFO[0m | 2025-11-23 13:28:19 | app.services.neo4j.database:create_graph_data:183 | Batch 1/1 processed (1000 configs)
+[32m[1mINFO[0m | 2025-11-23 13:28:19 | app.services.neo4j.database:create_graph_data:193 | Graph creation completed in 24.93s
+[32m[1mINFO[0m | 2025-11-23 13:28:19 | app.services.neo4j.database:close:124 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-23 13:28:20 | app.main:log_requests:113 | POST /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e - Status: 200
+[32m[1mINFO[0m | 2025-11-23 13:31:36 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-11-23 13:31:36 | app.services.neo4j.singleton:close:80 | Closing Neo4j driver...
+[32m[1mINFO[0m | 2025-11-23 13:31:36 | app.services.neo4j.singleton:close:82 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-11-23 13:31:36 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-11-23 13:31:36 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-03 10:33:59 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-03 10:33:59 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-03 10:33:59 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-03 10:34:16 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 09:54:32 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-12-04 09:54:32 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-12-04 09:54:34 | app.main:log_requests:111 | GET /favicon.ico
+[31m[1mERROR[0m | 2025-12-04 09:54:34 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-12-04 09:54:34 | app.main:log_requests:113 | GET /favicon.ico - Status: 404
+[32m[1mINFO[0m | 2025-12-04 09:55:06 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-12-04 09:55:06 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-12-04 09:55:08 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-12-04 09:55:08 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-12-04 10:00:28 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 10:00:28 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 10:00:28 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-04 20:42:11 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 20:42:12 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 20:42:12 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 20:42:30 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 20:42:30 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 20:42:30 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 20:42:31 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 20:42:31 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 20:42:31 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-04 20:42:31 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-04 20:42:31 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 20:48:50 | app.main:log_requests:111 | POST /api/upload_file
+[31m[1mERROR[0m | 2025-12-04 20:48:50 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-12-04 20:48:50 | app.main:log_requests:113 | POST /api/upload_file - Status: 404
+[32m[1mINFO[0m | 2025-12-04 20:54:05 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 20:54:05 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 20:54:05 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-04 21:11:38 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:11:38 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:11:38 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-04 21:12:08 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 21:37:11 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 21:37:11 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 21:37:11 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-04 21:48:21 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:48:21 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:48:21 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-04 21:48:56 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 21:49:39 | app.main:log_requests:111 | POST /api/upload_file
+[31m[1mERROR[0m | 2025-12-04 21:49:39 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-12-04 21:49:39 | app.main:log_requests:113 | POST /api/upload_file - Status: 404
+[32m[1mINFO[0m | 2025-12-04 21:56:17 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-12-04 21:56:17 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-12-04 21:56:18 | app.main:log_requests:111 | GET /favicon.ico
+[31m[1mERROR[0m | 2025-12-04 21:56:18 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-12-04 21:56:18 | app.main:log_requests:113 | GET /favicon.ico - Status: 404
+[32m[1mINFO[0m | 2025-12-04 21:56:35 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-12-04 21:56:35 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-12-04 21:56:37 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-12-04 21:56:38 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-12-04 21:58:39 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 21:58:39 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 21:58:39 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-04 21:58:58 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:58:58 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:58:58 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-04 21:59:09 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 22:00:56 | app.main:log_requests:111 | POST /api/v1/upload_file
+[31m[1mERROR[0m | 2025-12-04 22:00:56 | app.main:http_exception_handler:124 | HTTP error: 404 - Not Found
+[32m[1mINFO[0m | 2025-12-04 22:00:56 | app.main:log_requests:113 | POST /api/v1/upload_file - Status: 404
+[32m[1mINFO[0m | 2025-12-04 22:01:27 | app.main:log_requests:111 | GET /
+[32m[1mINFO[0m | 2025-12-04 22:01:27 | app.main:log_requests:113 | GET / - Status: 200
+[32m[1mINFO[0m | 2025-12-04 22:01:40 | app.main:log_requests:111 | GET /docs
+[32m[1mINFO[0m | 2025-12-04 22:01:40 | app.main:log_requests:113 | GET /docs - Status: 200
+[32m[1mINFO[0m | 2025-12-04 22:01:41 | app.main:log_requests:111 | GET /openapi.json
+[32m[1mINFO[0m | 2025-12-04 22:01:41 | app.main:log_requests:113 | GET /openapi.json - Status: 200
+[32m[1mINFO[0m | 2025-12-04 22:08:41 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 22:08:41 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 22:08:41 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-04 22:08:58 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 22:08:58 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 22:08:58 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-04 22:09:07 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-04 22:10:20 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-12-04 22:10:20 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-12-04 22:10:20 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-12-04 22:10:20 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-12-04 22:10:20 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-12-04 22:10:22 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-12-04 22:10:22 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-12-04 22:10:22 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-04 22:10:22 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-04 22:10:22 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-12-04 22:12:34 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-04 22:12:34 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-04 22:12:34 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-05 09:33:18 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-05 09:33:18 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-05 09:33:18 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-05 09:33:34 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-05 09:34:08 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-12-05 09:34:09 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-12-05 09:34:09 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-12-05 09:34:09 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-12-05 09:34:09 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-12-05 09:34:10 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-12-05 09:34:10 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-12-05 09:34:10 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-05 09:34:10 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-05 09:34:11 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-12-05 09:40:31 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-05 09:40:31 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-05 09:40:31 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-11 18:29:40 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-11 18:29:40 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-11 18:29:40 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-11 18:29:59 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-11 18:30:19 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-12-11 18:30:20 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-12-11 18:30:20 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-12-11 18:30:20 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-12-11 18:30:20 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-12-11 18:30:21 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-12-11 18:30:21 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-12-11 18:30:21 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-11 18:30:21 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-11 18:30:21 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-12-11 18:36:33 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-12-11 18:36:33 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-12-11 18:36:33 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-12-11 18:36:33 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-12-11 18:36:33 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-12-11 18:36:35 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-12-11 18:36:35 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-12-11 18:36:35 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-11 18:36:35 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-11 18:36:35 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-12-12 07:46:29 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-12 07:46:29 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-12 07:46:29 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-12 07:47:09 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-12 07:49:24 | app.main:log_requests:111 | POST /api/v1/files/upload
+[32m[1mINFO[0m | 2025-12-12 07:49:24 | app.api.v1.endpoints.files:upload_files:34 | Received 1 file(s) for upload
+[32m[1mINFO[0m | 2025-12-12 07:49:24 | app.api.v1.endpoints.files:upload_files:70 | File validated: customs_data.csv (9047625 bytes)
+[32m[1mINFO[0m | 2025-12-12 07:49:24 | app.api.v1.endpoints.files:upload_files:74 | Processing files to dataframes...
+[32m[1mINFO[0m | 2025-12-12 07:49:24 | app.services.ingest:_create_data_frame_from_files:64 | Loading file: customs_data.csv
+[32m[1mINFO[0m | 2025-12-12 07:49:26 | app.services.ingest:_create_data_frame_from_files:88 | Loaded customs_data.csv: 89350 rows, 19 columns
+[32m[1mINFO[0m | 2025-12-12 07:49:26 | app.api.v1.endpoints.files:upload_files:76 | Created 1 dataframe(s)
+[32m[1mINFO[0m | 2025-12-12 07:49:26 | app.api.v1.endpoints.files:upload_files:81 | Generated session ID: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-12 07:49:26 | app.api.v1.endpoints.files:upload_files:90 | Session created successfully: d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-12 07:49:26 | app.main:log_requests:113 | POST /api/v1/files/upload - Status: 201
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | OPTIONS /api/v1/graph_builder/validate_graph_config
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:113 | OPTIONS /api/v1/graph_builder/validate_graph_config - Status: 200
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | OPTIONS /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | OPTIONS /api/v1/graph_builder/check_neo4j_db
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | POST /api/v1/graph_builder/validate_graph_config
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:113 | OPTIONS /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e - Status: 200
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:113 | OPTIONS /api/v1/graph_builder/check_neo4j_db - Status: 200
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:113 | POST /api/v1/graph_builder/validate_graph_config - Status: 200
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | POST /api/v1/graph_builder/create_graph_data/d41d8cd98f00b204e9800998ecf8427e
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.main:log_requests:111 | POST /api/v1/graph_builder/check_neo4j_db
+[32m[1mINFO[0m | 2025-12-12 07:51:25 | app.services.neo4j.database:__init__:113 | Neo4j service initialized: bolt://localhost:7687, batch_size=1000
+[32m[1mINFO[0m | 2025-12-12 07:51:40 | app.services.neo4j.database:__init__:113 | Neo4j service initialized: bolt://localhost:7687, batch_size=1000
+[32m[1mINFO[0m | 2025-12-12 07:51:40 | app.services.neo4j.database:create_graph_data:175 | Creating graph: 536100 configs in 537 batches
+[32m[1mINFO[0m | 2025-12-12 07:52:02 | app.services.neo4j.database:close:124 | Neo4j driver closed
+[32m[1mINFO[0m | 2025-12-12 07:52:02 | app.main:log_requests:113 | POST /api/v1/graph_builder/check_neo4j_db - Status: 200
+[32m[1mINFO[0m | 2025-12-12 07:52:19 | app.services.neo4j.database:create_graph_data:183 | Batch 1/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:52:33 | app.services.neo4j.database:create_graph_data:183 | Batch 2/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:52:46 | app.services.neo4j.database:create_graph_data:183 | Batch 3/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:52:59 | app.services.neo4j.database:create_graph_data:183 | Batch 4/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:53:10 | app.services.neo4j.database:create_graph_data:183 | Batch 5/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:53:21 | app.services.neo4j.database:create_graph_data:183 | Batch 6/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:53:33 | app.services.neo4j.database:create_graph_data:183 | Batch 7/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:53:44 | app.services.neo4j.database:create_graph_data:183 | Batch 8/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:53:55 | app.services.neo4j.database:create_graph_data:183 | Batch 9/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:06 | app.services.neo4j.database:create_graph_data:183 | Batch 10/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:16 | app.services.neo4j.database:create_graph_data:183 | Batch 11/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:27 | app.services.neo4j.database:create_graph_data:183 | Batch 12/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:38 | app.services.neo4j.database:create_graph_data:183 | Batch 13/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:48 | app.services.neo4j.database:create_graph_data:183 | Batch 14/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:54:58 | app.services.neo4j.database:create_graph_data:183 | Batch 15/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:55:09 | app.services.neo4j.database:create_graph_data:183 | Batch 16/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:55:19 | app.services.neo4j.database:create_graph_data:183 | Batch 17/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:55:29 | app.services.neo4j.database:create_graph_data:183 | Batch 18/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:55:40 | app.services.neo4j.database:create_graph_data:183 | Batch 19/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:55:50 | app.services.neo4j.database:create_graph_data:183 | Batch 20/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:00 | app.services.neo4j.database:create_graph_data:183 | Batch 21/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:11 | app.services.neo4j.database:create_graph_data:183 | Batch 22/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:21 | app.services.neo4j.database:create_graph_data:183 | Batch 23/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:31 | app.services.neo4j.database:create_graph_data:183 | Batch 24/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:41 | app.services.neo4j.database:create_graph_data:183 | Batch 25/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:56:52 | app.services.neo4j.database:create_graph_data:183 | Batch 26/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:02 | app.services.neo4j.database:create_graph_data:183 | Batch 27/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:12 | app.services.neo4j.database:create_graph_data:183 | Batch 28/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:22 | app.services.neo4j.database:create_graph_data:183 | Batch 29/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:33 | app.services.neo4j.database:create_graph_data:183 | Batch 30/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:43 | app.services.neo4j.database:create_graph_data:183 | Batch 31/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:57:53 | app.services.neo4j.database:create_graph_data:183 | Batch 32/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:03 | app.services.neo4j.database:create_graph_data:183 | Batch 33/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:13 | app.services.neo4j.database:create_graph_data:183 | Batch 34/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:24 | app.services.neo4j.database:create_graph_data:183 | Batch 35/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:34 | app.services.neo4j.database:create_graph_data:183 | Batch 36/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:44 | app.services.neo4j.database:create_graph_data:183 | Batch 37/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:58:54 | app.services.neo4j.database:create_graph_data:183 | Batch 38/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:04 | app.services.neo4j.database:create_graph_data:183 | Batch 39/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:15 | app.services.neo4j.database:create_graph_data:183 | Batch 40/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:25 | app.services.neo4j.database:create_graph_data:183 | Batch 41/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:35 | app.services.neo4j.database:create_graph_data:183 | Batch 42/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:45 | app.services.neo4j.database:create_graph_data:183 | Batch 43/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 07:59:55 | app.services.neo4j.database:create_graph_data:183 | Batch 44/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:05 | app.services.neo4j.database:create_graph_data:183 | Batch 45/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:15 | app.services.neo4j.database:create_graph_data:183 | Batch 46/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:26 | app.services.neo4j.database:create_graph_data:183 | Batch 47/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:36 | app.services.neo4j.database:create_graph_data:183 | Batch 48/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:47 | app.services.neo4j.database:create_graph_data:183 | Batch 49/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-12 08:00:58 | app.services.neo4j.database:create_graph_data:183 | Batch 50/537 processed (1000 configs)
+[32m[1mINFO[0m | 2025-12-13 14:19:53 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-13 14:19:53 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 14:19:53 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-13 14:20:11 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-13 14:31:04 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-13 14:31:04 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-13 14:31:04 | app.main:lifespan:64 | Shutdown complete
+[32m[1mINFO[0m | 2025-12-13 19:20:47 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-13 19:20:47 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 19:20:47 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | root:setup_logging:275 | Logging initialized - Level: INFO
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | root:setup_logging:276 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | root:setup_logging:277 | Log files: /home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-builder-service/logs
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | app.main:lifespan:31 | Starting GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | app.main:lifespan:32 | Environment: development
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | app.main:lifespan:33 | Debug mode: True
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | app.main:lifespan:40 | Session manager initialized
+[32m[1mINFO[0m | 2025-12-13 19:21:03 | app.main:lifespan:50 | GraphBuilderService started successfully on 0.0.0.0:8000
+[32m[1mINFO[0m | 2025-12-13 19:26:19 | app.main:lifespan:55 | Shutting down GraphBuilderService...
+[32m[1mINFO[0m | 2025-12-13 19:26:19 | app.main:lifespan:60 | Neo4j connections closed
+[32m[1mINFO[0m | 2025-12-13 19:26:19 | app.main:lifespan:64 | Shutdown complete

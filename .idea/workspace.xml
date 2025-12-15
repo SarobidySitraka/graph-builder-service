@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="17ed96c6-7b62-43af-9016-db60c943aaaa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/endpoints/health.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/endpoints/health.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/api/v1/endpoints/neo4j.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/api/v1/endpoints/neo4j.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/core/polars_bootstrap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/db_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/db_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/db_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/file_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/file_loader2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/ingest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/neo4j/graph_api.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/neo4j/graph_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/neo4j/ingest.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/neo4j/ingest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/pl_file_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/pl_file_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/session_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/session_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/services/session_manager2.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/services/session_manager2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/data_manip.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/utils/data_manip.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/db_config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/utils/helpers.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/daily.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/daily.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="with_pandas" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="34p3ijCZkBTBtPdQgZ9SUPmP0J8" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHELLCHECK.PATH": "/home/parrot/.local/share/JetBrains/PyCharmCE2025.2/Shell Script/shellcheck",
+    "git-widget-placeholder": "with__pandas",
+    "last_opened_file_path": "/home/parrot/Templates/cedia/cedia-project/gnn/gnn/services/graph-filter-service"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="17ed96c6-7b62-43af-9016-db60c943aaaa" name="Changes" comment="" />
+      <created>1761896815097</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1761896815097</updated>
+    </task>
+    <servers />
+  </component>
+</project>
