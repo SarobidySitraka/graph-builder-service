@@ -12,7 +12,7 @@ RUN apt-get update && apt-get install -y \
     ca-certificates \
     && rm -rf /var/lib/apt/lists/*
 
-# Copier et installer Oracle Instant Client
+# Télécharger puis copier et installer Oracle Instant Client
 COPY instantclient-basic-linux.x64-23.26.0.0.0.zip /tmp/instantclient.zip
 RUN unzip /tmp/instantclient.zip -d /opt/oracle \
     && ln -s /opt/oracle/instantclient_19_10 /opt/oracle/instantclient \
